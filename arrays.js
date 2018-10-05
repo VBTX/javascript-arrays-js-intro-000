@@ -19,3 +19,8 @@ function destructivelyRemoveElementFromEndOfArray(numbers){
     numbers.pop();
     return numbers;
 }
+function removeElementFromBeginningOfArray(){
+  var colors = ['black', 'blue', 'grey', 'red'];
+  colors.slice(1);
+}
+
