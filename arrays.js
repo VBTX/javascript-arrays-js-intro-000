@@ -29,3 +29,9 @@ function destructivelyRemoveElementFromBeginningOfArray(numbers){
   numbers.shift();
   return numbers;
 }
+
+function iKnow(){
+  var things = ['everything', 'nothing', 'something'];
+  things[1];
+}
+
