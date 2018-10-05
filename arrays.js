@@ -2,9 +2,10 @@
 
 
 var chocolateBars = ["snickers","hundred grand", "kitkat", "skittles"];
+var candyString = "foo";
 
 
-function destructivelyAddElementToBeginningOfArray(){
-  var colors = ['black', 'blue', 'grey'];
-  colors.unshift('red');
+function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
+  chocolateBars.unshift(candyString);
+  return chocolateBars;
 }
