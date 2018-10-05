@@ -23,4 +23,3 @@ function removeElementFromBeginningOfArray(){
   var colors = ['black', 'blue', 'grey', 'red'];
   colors.slice(1);
 }
-
