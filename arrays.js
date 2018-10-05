@@ -44,10 +44,10 @@ function destructivelyAddElementToBeginningOfArray(numbers, foo){
   return numbers;
 }
 var array = [1, 2, 3];
-function addElementToBeginningOfArray(array, element){
-  return ["element", ...array];
+function addElementToBeginningOfArray(array, foo){
+  return ["foo", ...array];
 }
 var array = [1, 2, 3];
-function addElementToEndOfArray(array, element){
-  return [...array, "element"];
+function addElementToEndOfArray(array, foo){
+  return [...array, "foo"];
 }
