@@ -15,6 +15,6 @@ function removeElementFromEndOfArray(){
   return numbers;
 }
 function destructivelyRemoveElementFromEndOfArray(){
-    var colors = ['black', 'blue', 'grey', 'red'];
-    colors.pop();
+    var numbers = [1,2,3];
+    numbers.pop();
 }
