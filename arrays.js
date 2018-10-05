@@ -26,6 +26,6 @@ function removeElementFromBeginningOfArray(numbers){
 }
 var numbers = [ 1, 2, 3];
 function destructivelyRemoveElementFromBeginningOfArray(numbers){
-  numbers = numbers.shift();
+  numbers.shift();
   return numbers;
 }
