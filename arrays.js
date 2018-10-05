@@ -30,6 +30,6 @@ function destructivelyRemoveElementFromBeginningOfArray(numbers){
   return numbers;
 }
 var things = [ 1, 2, 3];
-function accessElementInArray(things){
-  things[2];
+function accessElementInArray(things, index){
+  return (things[2]);
 }
