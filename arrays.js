@@ -33,3 +33,7 @@ var things = [ 1, 2, 3];
 function accessElementInArray(things, index){
   return (things[2]);
 }
+var colors = ['black', 'blue', 'grey'];
+function destructivelyAddElementToEndOfArray(){
+  colors.push('red');
+}
