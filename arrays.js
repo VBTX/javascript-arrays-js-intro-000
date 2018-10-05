@@ -23,3 +23,8 @@ function removeElementFromBeginningOfArray(){
   var colors = ['black', 'blue', 'grey', 'red'];
   colors.slice(1);
 }
+function destructivelyRemoveElementFromBeginningOfArray(){
+  const colors = ['black', 'blue', 'grey', 'red'];
+  colors.shift();
+  colors;
+}
