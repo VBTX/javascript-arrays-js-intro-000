@@ -24,6 +24,6 @@ function removeElementFromBeginningOfArray(){
   colors.slice(1);
 }
 function destructivelyRemoveElementFromBeginningOfArray(){
-  const numbers = [ 1, 2, 3];
+  var numbers = [ 1, 2, 3];
   numbers.shift();
 }
