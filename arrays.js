@@ -43,4 +43,3 @@ function destructivelyAddElementToBeginningOfArray(){
   var colors = ['black', 'blue', 'grey'];
   colors.unshift('red');
 }
-
