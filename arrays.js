@@ -38,4 +38,3 @@ function destructivelyAddElementToEndOfArray(what, foo){
   what.push('foo');
   return what;
 }
-
