@@ -30,7 +30,7 @@ function destructivelyRemoveElementFromBeginningOfArray(numbers){
   return numbers;
 }
 
-function iKnow(){
+function accessElementInArray(things){
   var things = ['everything', 'nothing', 'something'];
   things[1];
 }
