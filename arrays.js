@@ -19,11 +19,13 @@ function destructivelyRemoveElementFromEndOfArray(numbers){
     numbers.pop();
     return numbers;
 }
+var numbers = [ 1, 2, 3];
 function removeElementFromBeginningOfArray(){
-  var numbers = [ 1, 2, 3];
   numbers.slice(1);
+  return numbers;
 }
+var numbers = [ 1, 2, 3];
 function destructivelyRemoveElementFromBeginningOfArray(){
-  var numbers = [ 1, 2, 3];
   numbers.shift();
+  return numbers;
 }
