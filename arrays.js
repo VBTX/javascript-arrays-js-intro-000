@@ -20,11 +20,11 @@ function destructivelyRemoveElementFromEndOfArray(numbers){
     return numbers;
 }
 var numbers = [ 1, 2, 3];
-function removeElementFromBeginningOfArray(){
+function removeElementFromBeginningOfArray(numbers){
   numbers.slice();
   return numbers;
 }
 var numbers = [ 1, 2, 3];
-function destructivelyRemoveElementFromBeginningOfArray(){
+function destructivelyRemoveElementFromBeginningOfArray(numbers){
   numbers.shift();
 }
