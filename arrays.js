@@ -31,6 +31,6 @@ function destructivelyRemoveElementFromBeginningOfArray(numbers){
 }
 
 function accessElementInArray(things){
-  var things = ['everything', 'nothing', 'something'];
-  things[1];
+  var things = [ 1, 2, 3];
+  things[2];
 }
