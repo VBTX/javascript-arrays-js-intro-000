@@ -15,7 +15,7 @@ function removeElementFromEndOfArray(){
   return numbers;
 }
 function destructivelyRemoveElementFromEndOfArray(){
-    var numbers = [ 1, 2, 3 ];
+    var numbers = [ 1, 2];
     numbers.pop();
     return numbers;
 }
