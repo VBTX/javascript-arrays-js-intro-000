@@ -37,3 +37,19 @@ function destructivelyRemoveElementFromBeginningOfArray(){
   colors.shift();
   colors;
 }
+
+function removeElementFromBeginningOfArray(){
+  var colors = ['black', 'blue', 'grey', 'red'];
+  colors.slice(1);
+}
+
+function destructivelyRemoveElementFromEndOfArray(){
+    var colors = ['black', 'blue', 'grey', 'red'];
+    colors.pop();
+    colors;
+}
+function removeElementFromEndOfArray(){
+  var colors = ['black', 'blue', 'grey', 'red'];
+  colors.slice(0, colors.length-1);
+  colors;
+}
