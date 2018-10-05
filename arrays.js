@@ -20,8 +20,8 @@ function destructivelyRemoveElementFromEndOfArray(numbers){
     return numbers;
 }
 function removeElementFromBeginningOfArray(){
-  var colors = ['black', 'blue', 'grey', 'red'];
-  colors.slice(1);
+  var numbers = [ 1, 2, 3];
+  numbers.slice(1);
 }
 function destructivelyRemoveElementFromBeginningOfArray(){
   var numbers = [ 1, 2, 3];
