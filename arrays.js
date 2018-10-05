@@ -21,7 +21,7 @@ function destructivelyRemoveElementFromEndOfArray(numbers){
 }
 var numbers = [ 1, 2, 3];
 function removeElementFromBeginningOfArray(){
-  numbers.slice(1);
+  numbers.slice();
   return numbers;
 }
 var numbers = [ 1, 2, 3];
