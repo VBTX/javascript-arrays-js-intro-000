@@ -38,3 +38,8 @@ function destructivelyAddElementToEndOfArray(what, foo){
   what.push('foo');
   return what;
 }
+
+function addElementToEndOfArray(colors, red){
+  const colors = ['black', 'blue', 'grey'];
+  const addition = [..colors, 'red'];
+}
