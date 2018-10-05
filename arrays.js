@@ -6,6 +6,7 @@ var ingredient5 = "tomato"
 var ingredient6 = "garlic"
 
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
+chocolateBars;
 
 function addElementToBeginningOfArray(){
   const colors = ['black', 'blue', 'grey'];
