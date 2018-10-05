@@ -35,5 +35,5 @@ function accessElementInArray(things, index){
 }
 var what = [1];
 function destructivelyAddElementToEndOfArray(what){
-  what.push('foo');
+  return (what.push('foo'));
 }
