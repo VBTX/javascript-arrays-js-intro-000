@@ -43,8 +43,8 @@ function destructivelyAddElementToBeginningOfArray(numbers, foo){
   numbers.unshift('foo');
   return numbers;
 }
-
-function addElementToBeginningOfArray(array, element){
-  array.unshift(element);
+var array = [1, 2, 3]
+function addElementToBeginningOfArray(array, foo){
+  array.unshift(foo);
   return array;
 }
