@@ -43,3 +43,7 @@ function destructivelyAddElementToBeginningOfArray(numbers, foo){
   numbers.unshift('foo');
   return numbers;
 }
+var colors = ['black', 'blue', 'grey'];
+function addElementToEndOfArray(colors, red){
+return [..colors, 'red'];
+}
