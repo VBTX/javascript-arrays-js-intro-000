@@ -11,6 +11,6 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
 }
 function removeElementFromEndOfArray(){
   var numbers = [1,2,3,4];
- numbers.slice(0, colors.length -1);
+  numbers.slice(0, numbers.length -1);
   return numbers;
 }
