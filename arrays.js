@@ -10,7 +10,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
   return chocolateBars;
 }
 function removeElementFromEndOfArray(){
-  var numbers = [1,2,3,4];
+  var numbers = [1,2];
   numbers.slice(0, numbers.length -1);
   return numbers;
 }
