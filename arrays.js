@@ -29,8 +29,7 @@ function destructivelyRemoveElementFromBeginningOfArray(numbers){
   numbers.shift();
   return numbers;
 }
-
+var things = [ 1, 2, 3];
 function accessElementInArray(things){
-  var things = [ 1, 2, 3];
   things[2];
 }
