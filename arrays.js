@@ -33,7 +33,7 @@ var things = [ 1, 2, 3];
 function accessElementInArray(things, index){
   return (things[2]);
 }
-var what = [1];
+var what = [1, 2];
 function destructivelyAddElementToEndOfArray(what){
   return (what.push('foo'));
 }
